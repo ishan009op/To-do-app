@@ -63,6 +63,8 @@ int main() {
     vector<Task> tasks;
 
     while (true) {
+
+        system("cls");
         cout << "To-Do App" << endl;
         cout << "1. Display tasks" << endl;
         cout << "2. Add new task" << endl;
@@ -91,6 +93,7 @@ int main() {
                 return 0;
             default:
                 cout << "Invalid choice. Please try again." << endl;
+                break;
         }
     }
 
